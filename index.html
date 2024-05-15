@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de contato</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <form id="form">
+        <div>
+            <h1>Formulário de contato</h1>
+            <strong><label>Nome:</strong>
+            <input type="text" id="nome" class="inputs required" oninput="nameValidate()">
+            <span class="span-required">Nome deve ter no mínimo 3 caracteres</span>
+            <strong><label>E-mail:</strong> 
+            <input type="email" id="email" class="inputs required" oninput="emailValidate()">
+            <span class="span-required">Digite um e-mail válido</span>
+            <strong><label>Mensagem:</strong>
+            <input type="text" id="mensagem" class="inputs required" oninput="mensagemValidate()">
+            <span class="span-required">Preencha este campo</span>
+            <button onclick="checar()">ENVIAR</button>
+        </div>
+    </form>
+</body>
+<script src="script.js"></script>
+</html>

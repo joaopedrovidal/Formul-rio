@@ -1,0 +1,59 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 400px;
+    width: 650px;
+    border-radius: 7px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding: 2px;
+}
+
+input{
+    padding: 5px;
+    margin-left: 20px;
+    width: 92%;
+}
+
+#mensagem{
+    height: 100px;
+}
+
+h1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+button{
+    border-style: none; 
+    background-color: rgb(12, 202, 59);
+    width: 63px;
+    height: 30px;
+    color: white;
+    margin-left: 20px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.span-required{
+    margin: 3px 0 0 1px;
+    color: red;
+    display: none;
+}
+
+span{
+    padding-left: 21px;
+}
